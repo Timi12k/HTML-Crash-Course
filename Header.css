@@ -1,5 +1,7 @@
 .container{
   background: url(image/wild-duck-8622063_1280.jpg);
+  background-position: center;
+  background-size: cover;
   display: flex;
   /*flex: 1;*/
   /*flex-direction: row;*/
@@ -15,8 +17,6 @@
   border-bottom-style: solid;
   border-bottom-color: rgb(172, 170, 170);
   z-index: 100;
-  
-
 }
 .header-1{
   display:flex;

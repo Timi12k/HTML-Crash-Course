@@ -60,6 +60,8 @@ p{
     color: antiquewhite;
     text-align: center;
     background: url(image/wild-duck-8622063_1280.jpg);
+    background-position: center;
+    background-size: cover;
     text-decoration: solid;
     font-size: 18px;
    /*line-height: 30px;*/
@@ -149,4 +151,62 @@ p{
     color: /*antiquewhite*/ black;
     padding: 10px;
     /*margin-top: 5px;*/
+}
+
+.Petition{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    background: url(image/owl-50267_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    vertical-align:middle;
+    align-items: center;
+    text-align: center;
+    margin: 100px auto;
+    padding: 100px 0;
+    border-radius: 10px;
+}
+.Petition::before {
+    content: ''; /* Add pseudo-element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(165, 157, 157, 0.5) 0%, rgba(189, 184, 184, 0.7) 100%);
+    backdrop-filter: blur(30px); /* Adjust blur value as needed */
+    border-radius: 1px; /* Inherit the border radius from parent */
+    opacity: 0.1;
+}
+
+.Petition h1{
+    color:rgb(255, 255, 255);
+    margin-bottom: 40px;
+    padding: 0;
+
+}
+.petitionbutton h4{
+    color: gold;
+}
+
+.footer{
+    text-align: center;
+    padding: auto;
+    margin-top: 30%;
+   
+}
+.footer h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight:bolder;
+}
+.footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 10px;
+}
+
+.logoicon{
+    margin-top: 5%;
+    margin-bottom: 2%;
 }

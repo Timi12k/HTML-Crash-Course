@@ -1,6 +1,7 @@
 .Sidebar{
   background-color: rgb(234, 220, 205);
   position: fixed;
+  display: grid;
   bottom: 0;
   left: 0;
   top: 55px;
@@ -16,7 +17,7 @@
 
 .Siderbar-1{
   /*background-color: rgb(240, 239, 239);*/
-  height: 90px;
+  height: 80px;
   margin-bottom: 1px;
   display: flex;
   justify-content: center;
@@ -24,6 +25,7 @@
   flex-direction: column;
   cursor: pointer;
   transition: transform 0.7s linear;
+  text-align: center;
 }
 
 
