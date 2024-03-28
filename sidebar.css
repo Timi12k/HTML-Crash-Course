@@ -1,0 +1,44 @@
+.Sidebar{
+  background-color: rgb(234, 220, 205);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 55px;
+  width: 80px;
+  border-right-width: 3px;
+  border-right-style: none;
+  /*border-right-color:rgb(158, 4, 4);*/
+  z-index: 200;
+  padding-top: 5px;
+  
+  
+}
+
+.Siderbar-1{
+  /*background-color: rgb(240, 239, 239);*/
+  height: 90px;
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: transform 0.7s linear;
+}
+
+
+.Siderbar-1:hover{
+  background-color: rgb(103, 79, 79);
+  transform: scale(1.2);
+}
+
+.Siderbar-1 img{
+  height: 50px;
+  margin-bottom: 10px;
+  
+
+}
+.Siderbar-1 div{
+  font-family: Roboto, Arial;
+  font-size: 12px;
+}
